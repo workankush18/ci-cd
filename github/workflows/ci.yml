@@ -20,5 +20,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run app (test purpose)
-        run: node -e "console.log('App is working')"
+   - name: Run tests
+  run: npm test
+       
