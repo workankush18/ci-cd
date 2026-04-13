@@ -7,7 +7,7 @@ app.use(express.json());
 
 // routes
 app.get("/", (req, res) => {
-  res.send("🚀 CI/CD Pipeline is working on Vercel!");
+  res.send("🚀 CI/CD Pipeline is working on Vercel okkk!");
 });
 
 app.get("/health", (req, res) => {
